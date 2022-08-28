@@ -154,7 +154,7 @@
             </div>
             
         <!--SERVICES-->
-        <!-- <section class="section">
+        <section class="section">
             <div class="serves container">
                 <h2 class="serves__title">Чем мы занимаемся</h2>
             <ul class="serves__list list">
@@ -187,20 +187,30 @@
                 </li>
             </ul>
             </div>
-        </section> -->
+        </section>
         <!---TEAM-->
-        <!-- <section class="team-section section">
+        <section class="team-section section">
             <div class="team container">
                 <h2 class="team__title">Наша команда</h2>
             <ul class="team__list list">
                 <li class="team__employees-card">
-                    <img 
-                    src="images/team/igor-demynenko.jpg" 
-                    alt="Фотопрортрет мужчини" 
-                    width="270" 
-                    height="260">
+                    <picture>
+                        <source srcset="images/team/igor-demynenko.jpg 1x,
+                         images/team/igor-demynenko@2x.jpg 2x" 
+                        media="min-width: 1200px"/>
+                        <source srcset="images/team/tabl-demynenko.jpg 1x, 
+                        images/team/tabl-demynenko@2x.jpg 2x" 
+                        media="min-width: 768px"/>
+                        <source srcset="mages/team/mobile-demynenko.jpg 1x,
+                        images/team/mobile-demynenko@2x.jpg 2x" 
+                        media="min-width: 320px"/>
+                        <img 
+                        src="images/team/mobile-demynenko.jpg" 
+                        alt="Фотопрортрет мужчини">
+                    </picture>
+                    
                     <div class="team__employees-card-wrapper">
-                        <h3 class="team__members">Игорь Демьяненко</h3>
+                        <h3 class="team__members">Ігор Дем'яненко</h3>
                         <p class="team__members-profession" lang="en">Product Designer</p>
                         <ul class="team__social-list list">
                             <li class="team__social-item">
@@ -234,13 +244,23 @@
                         </ul>
                     </div>                    
                 </li>
-                <li class="team__employees-card">                  
-                    <img src="images/team/olga-repina.jpg" 
-                    alt="Фотопрортрет женщини" 
-                    width="270" 
-                    height="260">
+                <li class="team__employees-card">
+                    <picture>
+                        <source srcset="images/team/olga-repina.jpg 1x,
+                        images/team/olga-repina@2x.jpg 2x "
+                         media="min-width: 1200px"/>
+                        <source srcset="images/team/tabl-repina.jpg 1x
+                        images/tabl-repina@2x" 
+                        media="min-width: 768px"/>
+                        <source srcset="images/team/mobile-repina.jpg 1x
+                        images/team/mobile-repina@2x.jpg 2x" 
+                        media="min-width: 320px"/>
+                        <img src="images/team/mobile-repina.jpg" 
+                        alt="Фотопрортрет женщини">
+                    </picture>                  
+                    
                     <div class="team__employees-card-wrapper">
-                        <h3 class="team__members">Ольга Репина</h3>
+                        <h3 class="team__members">Ольга Рєпіна</h3>
                         <p class="team__members-profession" lang="en">Frontend Developer</p>
                         <ul class="team__social-list list">
                             <li class="team__social-list-item">
@@ -275,13 +295,23 @@
                     </div>
                 </li>
                 <li class="team__employees-card">
-                    <img 
-                    src="images/team/nikolay-tarasov.jpg"
-                     alt="Фотопрортрет мужчини" 
-                     width="270" 
-                     height="260">
+                    <picture>
+                        <source srcset="images/team/nikolay-tarasov.jpg 1x
+                        images/team/nikolay-tarasov@2x.jpg 2x" 
+                        media="min-width: 1200px"/>
+                        <source srcset="images/team/tabl-tarasov.jpg 1x
+                        images/team/tabl-tarasov@2x.jpg 2x" 
+                        media="min-width: 738px"/>
+                        <source srcset="images/team/mobile-tarasov.jpg 1x
+                        images/team/mobile-tarasov@2x.jpg 2x" 
+                        media="min-width: 320px"/>
+                        <img 
+                        src="images/team/mobile-tarasov.jpg"
+                        alt="Фотопрортрет мужчини"> 
+                    </picture>
+                    
                      <div class="team__employees-card-wrapper">
-                        <h3 class="team__members">Николай Тарасов</h3>
+                        <h3 class="team__members">Микола Тарасов</h3>
                         <p class="team__members-profession" lang="en">Marketing</p>
                         <ul class="team__social-list list">
                             <li class="team__social-list-item">
@@ -316,13 +346,23 @@
                     </div>
                 </li>
                 <li class="team__employees-card">
-                    <img
-                     src="images/team/mikhail-ermakov.jpg
-                     " alt="Фотопрортрет мужчини" 
-                     width="270" 
-                     height="260">
+                    <picture>
+                        <source srcset="images/team/mikhail-ermakov.jpg 1x
+                        images/team/mikhail-ermakov@2z.jpg 2x" 
+                        media="min-width: 1200px"/>
+                        <source srcset="images/team/tabl-ermakov.jpg 1x
+                        images/team/tabl-ermakov@2x.jpg 2x" 
+                        media="min-width: 738px"/>
+                        <source srcset="images/team/mobile-ermakov.jpg 1x 
+                        images/team/mobile-ermakov@2x.jpg 2x" 
+                        media="min-width: 320px"/>
+                        <img
+                        src="images/team/mobile-ermakov.jpg" 
+                        alt="Фотопрортрет мужчини">
+                    </picture>
+                    
                      <div class="team__employees-card-wrapper">
-                        <h3 class="team__members">Михаил Ермаков</h3>
+                        <h3 class="team__members">Михайло Єрмаков</h3>
                         <p class="team__members-profession" lang="en">UI Designer</p>
                         <ul class="team__social-list list">
                             <li class="team__social-list-item">
@@ -358,7 +398,7 @@
                 </li>
             </ul>
             </div>
-        </section> -->
+        </section>
         <!--CLIENTS-->
         <!-- <section class="clients-section section">
             <div class="clients container">
