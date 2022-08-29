@@ -1,11 +1,13 @@
 .filters{
     display: flex;
-    justify-content: center;
-    margin-bottom: 34px;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 .filters__list-item:not(:last-child){
     margin-right: 8px;
 }
+
 
 .filters__btn{    
     font-family: inherit;
@@ -39,6 +41,13 @@
     background-color: var(--accent-color);
     color: var(--text-color-white);
     border-color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px){
+    .filters{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 }
 
 

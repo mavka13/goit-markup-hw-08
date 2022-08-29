@@ -64,3 +64,13 @@
     transform: translate(0, 0);
     }
 }
+@media screen and (min-width: 768px){
+    .portfolio{        
+        justify-content: flex-start;
+    }
+}
+@media screen and (min-width: 1200px){
+    .portfolio__item{
+        flex-basis: calc((100% - 60px) / 3);
+    }
+}
